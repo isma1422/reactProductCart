@@ -11,6 +11,7 @@ class App extends Component {
     super();
     this.state = {
       /*harcoded data*/
+
       products: [
         {
           id: 1,
@@ -41,6 +42,7 @@ class App extends Component {
       value: 0,
       quantity: 1
     };
+      
     this.handleAddClick = this.handleAddClick.bind(this);
     this.handleDeleteClick = this.handleDeleteClick.bind(this);
   }

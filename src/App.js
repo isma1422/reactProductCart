@@ -15,7 +15,8 @@ class App extends Component {
       /*harcoded data*/
       products : [{id:1,name:'Manzana',imgUrl:'https://mejorconsalud.com/wp-content/uploads/2014/06/manzanas.jpg',price:10,description:'Descripcion de la manzana'},
                  {id:2,name:'Pera',imgUrl:'https://mejorconsalud.com/wp-content/uploads/2014/01/Peras-canasta.jpg',price:18,description:'Descripcion de la Pera'},
-                 {id:3,name:'Naranja',imgUrl:'http://organic.gardeniers.es/wp-content/uploads/2014/11/naranja-ecologica.jpg',price:7,description:'Descripcion de la Naranja'}],
+                 {id:3,name:'Naranja',
+                  imgUrl:'https://agromagazine.es/wp-content/uploads/2018/03/naranja.jpg',price:7,description:'Descripcion de la Naranja'}],
       cart:[],
       value:0,
       quantity:1,

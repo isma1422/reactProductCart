@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.ProductList{
+  float:left;
+  width: 50%;
+  
+  
+}
+.ProductCart{
+  float:right;
+  padding-right: 2%;
+}
+
+.DropDownContainer{
+  width: 50%;
+}
+
+.ProductListChild{
+
+}
+
+.ImageContainer{
+  float: left;
+  width: 50%;
+  
+}
+.InfoContainer{
+
+}
+
+.ProductImage{
+  width: 100%;
+  height:100%;
+}
+
+.ListDeleteButton{
+  float: right;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
